@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Research Details</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">menu</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Research Details</h1>
+</div>
+<p>Catalogue:</p>
+<ol>
+<li><p><a href="Underwater.html">Underwater Image Enhancement with a Total Generalized Variation Illumination Prior</a></p>
+</li>
+<li><p><a href="SF6.html">The Design and Realization of Methane and Carbon Dioxide Infrared Gas Sensors (SRTP)</a></p>
+</li>
+<li><p><a href="Modeling.html">Design of Thermal Protective Clothing Based on Heat Conduction Partial Differential Equation Model 09/2018 (China Undergraduate Mathematical Contest in Modeling)</a></p>
+</li>
+</ol>
+<h2>Design of Thermal Protective Clothing Based on Heat Conduction Partial Differential Equation Model 09/2018 (China Undergraduate Mathematical Contest in Modeling) [<a href="[underwater.pdf">pdf (Chinese Version)</a>]</h2>
+<h3>Purpose</h3>
+<p>High-quality underwater images are of great significance for human exploration and excavation. There are two interfering factors:</p>
+<ol>
+<li><p>Low contrast and atomization -&gt; underexposed and blurry</p>
+</li>
+<li><p>Color deviation -&gt; bluish or greenish <br /></p>
+</li>
+</ol>
+<p>We designed a variational model based on Retinex to address these two issues.</p>
+<h3>Method</h3>
+<p>Three steps to promote the quality of underwater images:</p>
+<table class="imgtable"><tr><td>
+<img src="underwater_figure1.jpg" alt="alt text" width="500px" height="170px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<ol>
+<li><p>Color correction</p>
+</li>
+<li><p><tt><b>Retinex-based decomposition with a total generalized variation prior</b></tt></p>
+</li>
+<li><p>Post-processing</p>
+</li>
+</ol>
+<p>In step2, Retinex algorithm is applied to decompose the reflection and illumination. Following the nature of the illumination, the total generalized variation (TGV) prior is introduced to the illumination:</p>
+<table class="imgtable"><tr><td>
+<img src="underwater_figure2.jpg" alt="alt text" width="300px" height="70px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>To solve the proposed model, a high-efficiency iterative optimization scheme is designed and implemented by Matlab. The scheme can be summed up in <b>Algorithm 1</b> and <b>Algorithm 2</b>.</p>
+<table class="imgtable"><tr><td>
+<img src="underwater_figure3.jpg" alt="alt text" width="300px" height="300px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<h3>Experiments</h3>
+<p>We carried out plenty of experiments are carried out and evaluate the enhanced images from two points: <b>visual effect</b> and <b>objective evaluation</b>.</p>
+<table class="imgtable"><tr><td>
+<img src="underwater_figure4.jpg" alt="alt text" width="600px" height="600px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<table class="imgtable"><tr><td>
+<img src="underwater_figure5.jpg" alt="alt text" width="550px" height="200px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+</td>
+</tr>
+</table>
+</body>
+</html>
