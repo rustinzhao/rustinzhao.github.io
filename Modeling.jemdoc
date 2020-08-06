@@ -7,51 +7,7 @@ Catalogue:
 . [Modeling.html Design of Thermal Protective Clothing Based on Heat Conduction Partial Differential Equation Model 09/2018 (China Undergraduate Mathematical Contest in Modeling)]
 
 
-== Design of Thermal Protective Clothing Based on Heat Conduction Partial Differential Equation Model 09/2018 (China Undergraduate Mathematical Contest in Modeling) \[[[model.pdf pdf (Chinese Version)]\]
-	
-
-=== Purpose
-High-quality underwater images are of great significance for human exploration and excavation. There are two interfering factors:
-. Low contrast and atomization -> underexposed and blurry
-. Color deviation -> bluish or greenish \n
-
-We designed a variational model based on Retinex to address these two issues.
-
-=== Method
-
-Three steps to promote the quality of underwater images:
-
-~~~
-{}{img_left}{underwater_figure1.jpg}{alt text}{500}{170}
-~~~
-
-. Color correction
-. +*Retinex-based decomposition with a total generalized variation prior*+
-. Post-processing
-
-In step2, Retinex algorithm is applied to decompose the reflection and illumination. Following the nature of the illumination, the total generalized variation (TGV) prior is introduced to the illumination:
-
-~~~
-{}{img_left}{underwater_figure2.jpg}{alt text}{300}{70}
-~~~
-
-To solve the proposed model, a high-efficiency iterative optimization scheme is designed and implemented by Matlab. The scheme can be summed up in *Algorithm 1* and *Algorithm 2*.
-
-~~~
-{}{img_left}{underwater_figure3.jpg}{alt text}{300}{300}
-~~~
-
-=== Experiments
-
-We carried out plenty of experiments are carried out and evaluate the enhanced images from two points: *visual effect* and *objective evaluation*.
-
-~~~
-{}{img_left}{underwater_figure4.jpg}{alt text}{600}{600}
-~~~
-
-~~~
-{}{img_left}{underwater_figure5.jpg}{alt text}{550}{200}
-~~~
+== Design of Thermal Protective Clothing Based on Heat Conduction Partial Differential Equation Model 09/2018 (China Undergraduate Mathematical Contest in Modeling) \[[modeltest.pdf pdf (Chinese Version)]\]
 
 
 
