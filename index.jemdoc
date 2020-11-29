@@ -3,7 +3,7 @@
 
 ~~~
 {}{img_left}{bio.jpg}{alt text}{86}{106}
-Prospective Master Student,\n
+Master Student,\n
 University of Southern California \n
 Major: Computer Science \n 
 Email: [rustinzhao@gmail.com rustinzhao@gmail.com] \n
@@ -12,18 +12,20 @@ Email: [rustinzhao@gmail.com rustinzhao@gmail.com] \n
 ~~~
 
 == About me
-I received the B.S. Honours Degrees (Top 1.42%) in Electrical Engineering from Nanjing University of Information Science and Technology ([https://en.nuist.edu.cn/ NUIST]) in 2020. And I will be a master student in Computer Science at University of Southern California ([https://www.usc.edu/ USC]) in Spring 2021.
+Now I am a master student major in Computer Science at University of Southern California ([https://www.usc.edu/ USC]). I received the B.S. Honours Degrees (Top 1.42%) in Electrical Engineering from Nanjing University of Information Science and Technology ([https://www.nuist.edu.cn/ NUIST]) in 2020.
 
 [cv.pdf A brief cv].
+
+== Research Interest
+- Variational Autoencoders
+- Human Action Detection and Recognition
+- Facial Attributes Analysis
+- Underwater Image Enhancement with Variation introduced
 
 == Education
 2021.1 - future ~~University of Southern California \n
 2017.7 - 2017.8 ~University of Cambridege (Summer School: Electrical Engineering Program) \n
 2016.9 - 2020.6 Nanjing University of Information Science and Technology \n
-== Research Interest
-- Image Processing and Computer Vision
-- Algorithm Optimization
-- PDE Modeling
 
 
 === Recent Publications 
